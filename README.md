@@ -34,16 +34,18 @@ This application is composed of two main parts:
 - **Dynamic Flashcards**
   - Transforms key concepts into interactive flashcards
   - Flip animation for question/answer review
+  - Enhanced with related concepts and examples
 
 - **Voice Note Taker**
   - Record voice with pause and resume capabilities
-  - Speech-to-text conversion
+  - Speech-to-text conversion with live visualization
   - Focus on relevant information only
 
-- **Modern User Interface**
-  - Beautiful, responsive design
-  - Intuitive card-based navigation
-  - Cross-platform compatibility
+- **User Authentication**
+  - Login and registration system
+  - Admin and regular user accounts
+  - Profile management
+  - Remember me functionality
 
 ## Setup Instructions
 
@@ -129,27 +131,10 @@ The server will start on `http://localhost:8000`
   - youtube_transcript_api (YouTube transcripts)
   - SpeechRecognition (voice transcription)
   - pydub (audio processing)
-  - python-dotenv (Environment variable management)
 
-## AI Integration
+## Screenshots
 
-The app uses advanced AI to enhance the quality of generated study materials:
-
-- **Smart Summary Generation**: The AI creates more accurate, concise summaries that capture the essence of the document.
-- **Natural-Sounding Quiz Questions**: The generated quizzes contain well-formed questions that test understanding rather than just memorization.
-- **Precise Flashcards**: The flashcards created focus on important concepts with clear definitions and helpful explanations.
-- **Voice Transcription Enhancement**: The AI processes voice recordings to extract only the most relevant information, ignoring filler content for better studying.
-
-The app has a fallback mechanism that uses traditional NLP techniques if the AI API is not available, ensuring the app works even without internet connectivity.
-
-## Future Enhancements
-
-- User accounts and progress tracking
-- Spaced repetition algorithm for flashcards
-- Annotation and highlighting tools
-- Study scheduling and reminders
-- Additional AI models for specialized subjects
-- Enhanced mobile and tablet responsive design
+*Screenshots will be added soon*
 
 ## License
 
